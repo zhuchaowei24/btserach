@@ -3,8 +3,8 @@
 
 
 基于python 3.6
-先安装pyinstaller  进入文件目录下 cmd（pip install installer）
+先安装pyinstaller  进入文件目录下 cmd（pip install pyinstaller）
 python3.6自带pip无需安装
 
-pyinstaller -F net_test.py --noconsole  (打包成exe文件并且不显示控制台)
+pyinstaller -F net_test.py --noconsole  (打包成exe文件并且打开exe文件不显示控制台)
 生成的文件在dist里面
